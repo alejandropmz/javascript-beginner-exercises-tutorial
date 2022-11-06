@@ -1,5 +1,7 @@
 function addNumbers(a,b){
 	// This is the function body. Write your code here.
+	let sum = a + b;
+	return sum
 	
 }
 

@@ -1,6 +1,8 @@
-function getColor(selection)
+function getColor(parametro)
 {
-	switch(selection){
+	switch(parametro){
+		case 'red' : case 'blue' : case 'green':
+			return true;
 		// Add more options here
 	    default:
 	    	return false;  //returns false because the user picked an unavailable color
